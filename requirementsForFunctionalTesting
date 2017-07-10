@@ -1,0 +1,51 @@
+{Tapproaching} shall never {Req1} be set to false.
+After {Power-up} becomes true, {Tapproaching} shall never {Req2} be set to false.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall never {Req3} be set to false.
+Before {Power-up} becomes true, {Tapproaching} shall never {Req4} be set to false.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall never {Req5} be set to false.
+{Tapproaching} shall always {Req6} be set to false.
+After {Power-up} becomes true, {Tapproaching} shall always {Req7} be set to false.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall always {Req8} be set to false.
+Before {Power-up} becomes true, {Tapproaching} shall always {Req9} be set to false.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall always {Req10} be set to false.
+{Tapproaching} shall {Req11} be set to false.
+After {Power-up} becomes true, {Tapproaching} shall {Req12} be set to false.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall {Req13} be set to false.
+Before {Power-up} becomes true, {Tapproaching} shall {Req14} be set to false.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall {Req15} be set to false.
+If {Tapproaching} is true, then {Gopen} shall previously {Req16} be set to false
+After {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall previously {Req17} be set to false
+After {Power-up} becomes true and until {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall previously {Req18} be set to false
+Before {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall previously {Req19} be set to false
+Between {Power-up} becomes true and {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall previously {Req20} be set to false
+If {Tapproaching} is true, then {Tapproaching} shall {Req21} be set to false.
+After {Power-up} becomes true, if {Tapproaching} is true, then {Tapproaching} shall {Req22} be set to false.
+After {Power-up} becomes true and until {Pgo} becomes false, if {Tapproaching} is true, then {Tapproaching} shall {Req23} be set to false.
+Before {Power-up} becomes true, if {Tapproaching} is true, then {Tapproaching} shall {Req24} be set to false.
+Between {Power-up} becomes true and {Pgo} becomes false, if {Tapproaching} is true, then {Tapproaching} shall {Req25} be set to false.
+{Tapproaching} shall {Req26} be set to false for 3 seconds.
+After {Power-up} becomes true, {Tapproaching} shall {Req27} be set to false for 3 seconds.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall {Req28} be set to false for 3 seconds.
+Before {Power-up} becomes true, {Tapproaching} shall {Req29} be set to false for 3 seconds.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall {Req30} be set to false for 3 seconds.
+{Tapproaching} shall {Req31} be set to false for less than 3 seconds.
+After {Power-up} becomes true, {Tapproaching} shall {Req32} be set to false for less than 3 seconds.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall {Req33} be set to false for less than 3 seconds.
+Before {Power-up} becomes true, {Tapproaching} shall {Req34} be set to false for less than 3 seconds.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall {Req35} be set to false for less than 3 seconds.
+{Tapproaching} shall {Req36} be set to false every 3 seconds.
+After {Power-up} becomes true, {Tapproaching} shall {Req37} be set to false every 3 seconds.
+After {Power-up} becomes true and until {Pgo} becomes false, {Tapproaching} shall {Req38} be set to false every 3 seconds.
+Before {Power-up} becomes true, {Tapproaching} shall {Req39} be set to false every 3 seconds.
+Between {Power-up} becomes true and {Pgo} becomes false, {Tapproaching} shall {Req40} be set to false every 3 seconds.
+If {Tapproaching} is true, then {Gopen} shall {Req41} be set to false after at most 1 minute
+After {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall {Req42} be set to false after at most 1 minute
+After {Power-up} becomes true and until {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall {Req43} be set to false after 1 minute.
+Before {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall {Req44} be set to false after at most 1 minute
+Between {Power-up} becomes true and {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall {Req45} be set to false after at most 1 minute
+If {Tapproaching} is true, then {Gopen} shall {Req46} be set to false for 3 seconds
+After {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall {Req47} be set to false for 3 seconds
+After {Power-up} becomes true and until {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall {Req48} be set to false for 3 seconds
+Before {Power-up} becomes true, if {Tapproaching} is true, then {Gopen} shall {Req49} be set to false for 3 seconds
+Between {Power-up} becomes true and {Pgo} becomes false, if {Tapproaching} is true, then {Gopen} shall {Req50} be set to false for 3 seconds
+Independently from the value of {grant} arbiter shall {Req5} pass out the token setting  {passOut}  to true.
