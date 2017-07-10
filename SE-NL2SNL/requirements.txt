@@ -1,0 +1,32 @@
+{Tapproaching} shall {Req1} be set to false.
+After {Power-up becomes true, {Tin} shall {Req2} be set to false.
+After {Power-up becomes true, {Tleave} shall {Req3} be set to false. 
+After {Power-up} becomes true, {Gopen} shall {Req4} be set to true
+When {Tdistance} is less than 3000, {Tapproaching} shall {Req5} be set to true. 
+If {Tapproaching} is true, then {Gopen} shall {Req6} be set to false
+If {Tdistance} is less than 1000, {Tin} shall {Req7} be set to true. 
+After {Tin} becomes true, when {Tdistance} is greater than 3000, {Tleave} shall {Req8} be set to true. 
+If {Tleave} is true, then {Gopen} shall {Req9} be set to true. 
+When {Tdistance} is greater than 10000, {Tleave} shall {Req10} be set to false for at least 3 minutes.
+When {Tdistance} is greater than 10000, {Tin} shall {Req11} be set to false. 
+When {Tdistance} is greater than 10000, {Tapproaching} shall {Req12} be set to false. 
+If {request} or {tokenIn} are true, then {grant} shall {Req1} be set to true. 
+If {request} is false and {tokenIn} is true, then {passOut} shall {Req2} be set to true. 
+If {tokenIn} is false but {passIn} and {request} are both true, then {grant} shall {Req3} be set to true. 
+If {request} is true but {tokenIn} and {passIn} are both false, then request shall {Req4} be ignored. 
+Independently from the value of {grant} arbiter shall {Req5} pass out the token setting  {passOut}  to true.
+After {Cinit} becomes true, {Cred} shall {Req2} be set to true.
+After {Cinit} becomes true, {Cyel} shall {Req3} be set to false.
+After {Cinit} becomes true, {Cgrn} shall {Req4} be set to false.
+If {Cred} is true, then {Pgo} shall {Req5} be sets to true after at most 3 seconds
+When {Cred} is true, then it shall {Req6} holds true for 2 minutes 
+After {Cred} becomes true, then {Cyel},{Cred} and {Pstop} shall {Req7} be true for 1 minute 
+If {Pstop} is true, then {Pgo} shall {Req8} be set to false.
+After {Cyel},{Cred} and {Pstop} are true , then {Cgrn} shall {Req9} be sets to true. 
+When {Cgrn} is true, then {Pstop} shall {Req10} be sets true. 
+When {Cgrn} is true, then it shall {Req11} holds true for 1 minute 
+After {Cgrn} is true, then {Cyel} and {Pstop} shall holds true for 1 minute 
+After {Cyel} and {Pstop} are true, then {Cred} shall {Req13} be sets true every 3 minutes.
+Between {Cgrn} is true and {Pgo} becomes false, when {Pstop} is true, then {Pred} shall {Req2} be sets to true. 
+Before {Cyel} and {Pstop} are true, when {Pgo} is true, then {Pgreen} shall {Req3} be sets to true. 
+After {Cyel} and {Pstop} are true and until {Pgo} becomes false, if {Pred} is true, then {Pgreen} shall {Req4}  be sets to false. 
