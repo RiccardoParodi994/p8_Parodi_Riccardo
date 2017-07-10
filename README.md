@@ -21,5 +21,7 @@ Una volta scelta una delle due suddette strade, nel progetto, a livello dell'"sr
 "requirementsForFunctionalTesting"  (raccolta di requisiti di default utilizzati dal progetto all'avvio della "run") ;
 "signals.txt"                       (raccolta di segnali associati ai requisiti inviati dal Professor Tacchella) ;
 
+Dopo di chè si aggiunga anche il file.jar all'interno della cartella "libraries".
+
 Eseguito anche quest'ultimo passo, basterà eseguire la "run" e il sistema stamperà a video il corretto risultato.
 ------------------------------------------------------------------------
