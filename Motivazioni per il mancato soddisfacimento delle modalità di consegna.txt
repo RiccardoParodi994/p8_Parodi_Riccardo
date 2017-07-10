@@ -1,0 +1,24 @@
+TEST STRUTTURALI
+
+- I metodi di print, i get, i set e i costruttori non verranno testati in quanto ho ritenuto il loro test esser poco significativo.
+
+- Nella classe "Associator" manca il testing sugli 'if' con numero 3 e 4 gruppi di predicati all'interno del requisito in quanto non ho saputo inventarmi dei requisiti che soddisfassero i pattern ad essi associati. Mi riferisco ai seguenti sei pattern : 
+
+* scope, transitions to states in which P holds occur at most twice.
+* scope, it is always the case that if P holds, and is succeded by S, then T previously held.
+* scope, it is always the case that if P holds, then S previously held and was preceded by T.
+* scope, it is always the case that if P holds, then S eventually holds and is succeded by T.
+* scope, it is always the case that if P holds, and is succeded by S, then T eventually holds after S.
+* scope, it is always the case that if P holds, then S eventually holds and is succeded by T, where Z does not hold between S and T.
+
+- Assumo inoltre che la classe "Parser" non ha senso che venga testata in quanto è composta dalle sole componenti del Parser di Stanford
+
+- Per quel che riguarda le seguenti classi : "PosTags", "Signals", "Signal" e "Requirements" assumo di nuovo che il testing su di esse sia superfluo e poco significativo in quanto implementano metodi per soli "get", "set", letture da file e printer.
+
+
+TEST FUNZIONALI
+
+- Nello "use-case" con id : "UC1" non ho potuto rispettare nè la parte di "con la relativa diagnostica" nello sceneraio alternativo in cui il sistema non riesce a tradurre uno o più requisiti nè l'intero secondo scenario alternativo in quanto, se avviene correttamente la traduzione, il pattern associato al requisito risulterà uno soltanto.
+La sottoparte del primo, suddetto, scenario alternativo non è stata rispettata per via del fatto che il motivo per cui se la traduzione non viene effettuata la diagnostica risultante sarebbe sempre una soltanto e quindi poco significativa. Ovvero a causa di un requisito con una struttura sintattica/semantica inattesa. Il mio traduttore si basa infatti su pre-determinate strutture e se gli viene sottoposta una inattesa darà inevitabilmente errore. Altrimenti traduce sempre.
+
+- Per quel che riguarda lo "use-case" con id : "UC2" non l'ho potuto rispettare totalmente in quanto non ho trovato modo per riuscire a calcolare più di una traduzione per uno stesso requisito. Il mio programma ad un requisito associerà un unico pattern.
