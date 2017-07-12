@@ -19,7 +19,7 @@ Una volta scelta una delle due suddette strade, andranno inseriti nel progetto, 
 - "requirementsForFunctionalTesting" (raccolta di requisiti di default utilizzati dal progetto all'avvio della "run") ;
 - "signals.txt" (raccolta di segnali associati ai requisiti (relativi quindi sia al "requirements.txt" sia al "requirementsForFunctionalTesting") inviati dal Professor Tacchella) ;
 
-Dopo di chè si aggiunga anche il la libreria situata all'interno della cartella "libraries" per il corretto funzionamento della classe "Parser" implementante le funzioni del parser di Stanford.
+Dopo di chè si aggiunga anche il .jar denominato "RequirementsValidator.jar" situat all'interno della cartella "libraries" per il corretto funzionamento della classe "Parser" implementante le funzioni del parser di Stanford.
 
 Eseguito anche quest'ultimo passo, basterà eseguire la "run" e il sistema stamperà a video il corretto risultato.
 ------------------------------------------------------------------------
