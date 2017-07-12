@@ -1,0 +1,1 @@
+java -Xmx1g -XX:MaxPermSize=512m -jar bin/RequirementsValidator.jar 
