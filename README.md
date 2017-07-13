@@ -4,7 +4,7 @@ NL2SNL
 NLTK
 
 ------------------------------------------------------------------------
-Premetto che se nel seguente procedimento per acquisizione di codice e librerie dovvessero esserci problemi, per quel che riguarda la parte di recupero del "RequirementsValidator" (di tipo : Executable Jar File (.jar) ) mi sono semplicemente limmitato a scaricare la cartella "RequirementsValidator" nella cartella relativa al link dropBox che il Professor Narizzano ci inviò a tempo debito a noi del progetto NL2SNL. 
+Premetto che se nel seguente procedimento per acquisizione di codice e librerie dovvessero esserci problemi, per quel che riguarda la parte di recupero del "RequirementsValidator" (di tipo : Executable Jar File (.jar) ) mi sono semplicemente limitato a scaricare la cartella "RequirementsValidator" nella cartella relativa al link dropBox che il Professor Narizzano ci inviò a tempo debito a noi del progetto NL2SNL. 
 
 Per poter lanciare il programma SE-NL2SNL correttamente su ECLIPSE è necessario seguire i seguenti passi.
 
@@ -23,8 +23,7 @@ Una volta scelta una delle due suddette strade, andranno inseriti nel progetto, 
 Nella sezione libraries c'è il file per l'apposito link per scaricare la zip contenente il "RequirementsValidator". (Non potevo fare altrimenti causa l'eccessiva dimensione del programma.)
 
 Il .jar "RequirementsValidator.jar" si recupera seguendo questo percorso -> cartella "RequirementsValidator" -> cartella "bin" -> "RequirementsValidator" di tipo : Executable Jar File (.jar).
-
-Dopo di chè si aggiunga anche il .jar denominato "RequirementsValidator.jar", nel senso di andare sul "build path" relativo al suddetto progetto precedentemente scaricato e importato, da qui procedere con "configure build path" e infine, tramite la funzionalità "add external jars" aggiungere il .jar.
+Dopo di chè si aggiunga il .jar denominato "RequirementsValidator.jar", quindi si vada sul "build path" relativo al suddetto progetto precedentemente scaricato e importato, da qui procedere con "configure build path" e infine, tramite la funzionalità "add external jars" aggiungere il .jar "RequirementsValidator.jar".
 
 Eseguito anche quest'ultimo passo, basterà eseguire la "run" e il sistema stamperà a video il corretto risultato.
 ------------------------------------------------------------------------
