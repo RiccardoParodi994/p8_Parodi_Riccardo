@@ -4,6 +4,7 @@ NL2SNL
 NLTK
 
 ------------------------------------------------------------------------
+Premetto che se nel seguente procedimento per acquisizione di codice e librerie dovvessero esserci problemi, per quel che riguarda la parte di recupero del "RequirementsValidator" (di tipo : Executable Jar File (.jar) ) mi sono semplicemente limmitato a scaricare la cartella "RequirementsValidator" nella cartella relativa al link dropBox che il Professor Narizzano ci inviò a tempo debito a noi del progetto NL2SNL. 
 
 Per poter lanciare il programma SE-NL2SNL correttamente su ECLIPSE è necessario seguire i seguenti passi.
 
