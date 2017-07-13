@@ -8,8 +8,8 @@ NLTK
 Per poter lanciare il programma SE-NL2SNL correttamente su ECLIPSE è necessario seguire i seguenti passi.
 
 Si possono prendere due vie per il download del codice : 
-o si scarica la cartella "SE-NL2SNL" e la si importa in ECLIPSE insieme alla libreria per il parser di Stanford,
-o si scarica la cartella "src" insieme ai file "bin", ".project", ".classpath" insieme alla libreria per il parser di Stanford.
+o si scarica la cartella "SE-NL2SNL" (che ho direttamente prelevato dal mio "workspace") e la si importa in ECLIPSE insieme al "RequirementsValidator.jar" per il corretto funzionamento di alcune funzionalità del parser di Stanford,
+o si scarica la cartella "src" insieme ai file "bin", ".project", ".classpath" insieme al "RequirementsValidator.jar" per il corretto funzionamento di alcune funzionalità del parser di Stanford.
 
 Una volta scelta una delle due suddette strade, andranno inseriti nel progetto, a livello dell'"src", anche i seguenti file :
 
