@@ -14,13 +14,13 @@ import interpreterPackage.Signals;
 
 
 /**
- * Tale classe Ë l'unica che viene istanziata nel main e agisce come segue :
+ * Tale classe √® l'unica che viene istanziata nel main e agisce come segue :
  * prende innanzitutto il requisito dal Main chiamante e ne esegue un controllo.
- * Questo per via del fatto che si cerca il pi˘ possibile di rendere il requisito
- * pronto per la traduzione (quindi, per fare un esempio, si eviter‡ di far 
+ * Questo per via del fatto che si cerca il pi√π possibile di rendere il requisito
+ * pronto per la traduzione (quindi, per fare un esempio, si eviter√† di far 
  * fallire il parsing semantico per via del mancato rispettamento del formato 
  * per i segnali seguente '{' + "Signal" + '}').
- * Dopo di chË si manda in esecuzione il Parser di Stanford che genera, per un 
+ * Dopo di ch√® si manda in esecuzione il Parser di Stanford che genera, per un 
  * massimo di venti volte, alberi sintattici che vengono di volta
  * in volta mandati in input all' "Associator" che, dopo averne effettuato
  * l'analisi semantica, cerca di eseguirne l'associazione. 
@@ -31,7 +31,7 @@ import interpreterPackage.Signals;
  * classe "VerbPhraseParser" per l'analisi di strutture sintattiche come segue : 
  * "(VP () ... (, ,) (SBAR))". Tale "SBAR" viene quindi "inviata" alla classe
  * "Interpreter" che a sua volta la rimanda alla chiamante "FinalParser" che la
- *  tratta come se fosse esterna alla "VP". CosÏ facendo rientrerei nei casi 
+ *  tratta come se fosse esterna alla "VP". Cos√¨ facendo rientrerei nei casi 
  *  in cui mi aspetto essere gli alberi sintettici per la loro corretta analisi 
  *  semantica.
  *  Questo secondo tentativo viene eseguito, di nuovo, per un massimo di venti volte
@@ -95,7 +95,7 @@ public class Analyzer {
 			
 			if(myFP.isCorrectParsing()) {
 				
-				//qui andr‡ chiamata la classe per l'associazione
+				//qui andr√† chiamata la classe per l'associazione
 				Associator myAssociator = new Associator(myPosTags, myFP, analyze);	
 				this.patterns.add(myAssociator.getPattern());
 			
@@ -130,7 +130,7 @@ public class Analyzer {
 				
 				if(mySecondFP.isCorrectParsing()) {
 				
-					//qui andr‡ chiamata la classe per l'associazione
+					//qui andr√† chiamata la classe per l'associazione
 					Associator myAssociator = new Associator(myPosTags, mySecondFP, analyze);				
 					this.patterns.add(myAssociator.getPattern());
 					
@@ -142,9 +142,9 @@ public class Analyzer {
 
 		if(analyze) {
 			if (hasFailed) {
-				System.out.println("il parsing semantico Ë fallito nuovamente. "
+				System.out.println("il parsing semantico √® fallito nuovamente. "
 						+ "Impossibile effetturare l'associazione requisito pattern. ");
-				this.patterns.add("il parsing semantico Ë fallito nuovamente. Impossibile effetturare l'associazione requisito pattern. ");
+				this.patterns.add("il parsing semantico e' fallito nuovamente. Impossibile effetturare l'associazione requisito pattern. ");
 			}
 			System.out.println("---------------------------------------------------------------------------------------------------------------------");
 
@@ -223,7 +223,7 @@ public class Analyzer {
 	
 		int j = i;
 		
-		//questo while Ë necessario per l'analisi completa del numero
+		//questo while √® necessario per l'analisi completa del numero
 		while (j < req.length() && Character.isDigit(req.charAt(j))) {	
 			j = j + 1;
 		}
@@ -238,7 +238,7 @@ public class Analyzer {
 	
 	public String checkTheDot(String req) {
 		/**
-		 * Se non c'Ë il punto alla fine del requisito lo aggiungo
+		 * Se non c'√® il punto alla fine del requisito lo aggiungo
 		 */
 		
 		String modified = req;
