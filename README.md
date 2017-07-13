@@ -20,9 +20,11 @@ Una volta scelta una delle due suddette strade, andranno inseriti nel progetto, 
 - "requirementsForFunctionalTesting" (raccolta di requisiti di default utilizzati dal progetto all'avvio della "run") ;
 - "signals.txt" (raccolta di segnali associati ai requisiti (relativi quindi sia al "requirements.txt" sia al "requirementsForFunctionalTesting") inviati dal Professor Tacchella) ;
 
-Dopo di chè si aggiunga anche il .jar denominato "RequirementsValidator.jar", (nel senso di andare sul "build path" relativo al suddetto progetto precedentemente scaricato e importato, da qui procedere con "configure build path" e infine, tramite la funzionalità "add external jars" aggiungere il .jar), situato all'interno della cartella "libraries" per il corretto funzionamento della classe "Parser" implementante le funzioni del parser di Stanford.
+Nella sezione libraries c'è il file per l'apposito link per scaricare la zip contenente il "RequirementsValidator". (Non potevo fare altrimenti causa l'eccessiva dimensione del programma.)
 
-Il .jar "RequirementsValidator.jar" si recupera seguendo questo percorso libraries -> Parser -> cartella "RequirementsValidator" -> cartella "bin" -> "RequirementsValidator" di tipo : Executable Jar File (.jar).
+Il .jar "RequirementsValidator.jar" si recupera seguendo questo percorso -> cartella "RequirementsValidator" -> cartella "bin" -> "RequirementsValidator" di tipo : Executable Jar File (.jar).
+
+Dopo di chè si aggiunga anche il .jar denominato "RequirementsValidator.jar", nel senso di andare sul "build path" relativo al suddetto progetto precedentemente scaricato e importato, da qui procedere con "configure build path" e infine, tramite la funzionalità "add external jars" aggiungere il .jar.
 
 Eseguito anche quest'ultimo passo, basterà eseguire la "run" e il sistema stamperà a video il corretto risultato.
 ------------------------------------------------------------------------
