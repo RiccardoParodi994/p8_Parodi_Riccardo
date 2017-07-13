@@ -1,0 +1,9 @@
+Non ho potuto rispettare ciò che era stato deciso nel corso della stesura dell' SDD per via del fatto che ho cambiato numerose idee 
+rispetto al periodo in cui era stato scritto il suddetto documento. Durante la fase di implementazione del codice infatti ho valutato che 
+la "look up table" potrà essere sviluppata solo in una versione più avanzata del programma e soprattutto più completa. Non sono adesso in 
+grado di sfruttare una classe del genere per il corretto funzionamento del programma.
+
+Inoltre non ho nemmeno potuto utilizzare l'idea della classe Pattern completa dei suoi figli a causa del cambiamento di idea che ho avuto 
+sempre durante la scrittura del codice. Infatti il programma che ho implementato non andrà a ricercare quale sottoclasse di pattern 
+andare ad associare al requisito analizzato, bensì tradurrà direttamente componento durante la fase finale dell'analisi semantica il
+pattern finale che risulterà ad associazione compiuta.
