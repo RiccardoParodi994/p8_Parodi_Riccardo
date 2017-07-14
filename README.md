@@ -14,7 +14,7 @@ o si scarica la cartella "src" insieme ai file "bin", ".project", ".classpath" i
 
 Una volta scelta una delle due suddette strade, andranno inseriti nel progetto, a livello dell'"src", anche i seguenti file :
 
-- "pattern.txt" (file necessario per la memorizzazione dei requisiti tradotti nella fase di testing strutturale) ;
+- "pattern.txt" (file necessario per la memorizzazione dei requisiti tradotti nella fase di testing funzionale) ;
 - "pos-tags.txt" (file necessario per la lettura dei pos-tags fondamentali per il loro riconoscimento nell'albero sintattico) ;
 - "requirements.txt" (raccolta di requisiti inviati dal Professor Tacchella. Essi possono essere eventualmente utilizzati per la verifica del corretto funzionamento del progetto. Per utilizzarli basterà settare nella main la stringa relativa al nome del file dei requisiti da leggere a "requirements.txt") ;
 - "requirementsForFunctionalTesting" (raccolta di requisiti di default utilizzati dal progetto all'avvio della "run") ;
